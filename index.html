@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Estacionamento</title>
+</head>
+<body>
+    <fieldset>
+        <h1>Controle de Entrada de Carros</h1>
+        <div class="container">
+            <div class="inline"><img src="/images/1.png" alt=""><br>
+                <label>Digite o nome</label>
+                <input type="text" id="name" placeholder="Digite o nome do Veículo" autocomplete="off"><br>
+                <label>Digite a placa</label>
+            <input type="text" id="plate" placeholder="Digite a placa do Veículo" autocomplete="off"><br>
+            <button id="register">Cadastrar</button></div>
+        <div class="column">
+
+            <h2>Carros Alocados</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Placa</th>
+                    <th>Entrada</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="courtyard"></tbody>
+        </table></div></div>
+        
+        
+    </fieldset>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
